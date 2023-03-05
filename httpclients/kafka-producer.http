@@ -1,0 +1,14 @@
+### Hello Object Message
+POST http://localhost:8080/kafka/object-message
+Content-Type: application/json
+
+{
+  "message": "Hello Kafka World!!!"
+}
+
+
+### Hello String Message
+POST http://localhost:8080/kafka/string-message
+Content-Type: text/plain
+
+Hello Kafka World!!!
